@@ -110,7 +110,7 @@ pry(main)> villette = charlotte_bronte.write("Villette", "1853")
 pry(main)> harper_lee = Author.new({first_name: "Harper", last_name: "Lee"})    
 #=> #<Author:0x00007fbeea112730...>
 
-pry(main)> mockingbird = harper_lee.write("To Kill a Mockingbird", "July 11, 1960")    
+pry(main)>    mockingbird = harper_lee.write("To Kill a Mockingbird", "July 11, 1960") 
 #=> #<Book:0x00007fbeeb1089f0...>
 
 pry(main)> dpl.add_author(charlotte_bronte)
